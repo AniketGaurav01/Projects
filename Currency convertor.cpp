@@ -240,10 +240,9 @@ float s=0,j=0;
     _getch ();  
     while ( !_kbhit() )  
     {  
-        Sleep(0);
+        Sleep(2);
         break;
-        system( "CLS" );  
-        cout << " \n\t\t\t\t\t Press again";  
+        system( "CLS" );   
     }  
     cout << endl;
     cout << endl;
